@@ -1,0 +1,279 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html,body{
+    height: 1000vh;
+    width: 100%;
+    /* background-color: rgb(233, 232, 200); */
+    font-family: voyage;
+}
+.main{
+    height: 100vh;
+    width: 100%;
+   
+    border-top: 1px solid transparent;
+}
+.upper-nav{
+    height: 15%;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    position: fixed;
+    /* overflow: hidden; */
+    z-index: 1000;
+    margin-top: 30px;
+}
+#chungi{
+    margin-top: 50px;
+    line-height: 35px;
+    height: 100px;
+    width: 95%;
+    /* background-color: aqua; */
+    font-family: voyage;
+    font-size: 60px;
+    /* margin-left: 40px; */
+    font-weight: 500;
+    margin-left: 60px;
+}
+#yoo{
+    margin-left: 36px;
+}
+#fool{
+    height: 50px;
+    width: 50px;
+    margin-right:40px;
+}
+.upper-nav>i{
+    height: 30px;
+    width: 40px;
+    font-size: 50px;
+    margin-left: -95%;
+}
+.main-content{
+    height: 185%;
+    width: 100%;
+    background-color: #F3EEE8;
+
+}
+
+.main-content>h1{
+    height: 200%;
+    width: 69%;
+    font-size: 210px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    position: absolute;
+    left: 50%;
+    top: 45%;
+    transform: translate(-42%,-5%);
+}
+#play{
+    margin-left: 170px;
+    line-height: 50px;
+}
+#yoo1{
+    height: 200%;
+    width: 69%;
+    font-size: 210px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    position: absolute;
+    left: 16%;
+    top: 18%;
+    /* transform: translate(-42%,-5%); */
+}
+#yoo2{
+    height: 100%;
+    width: 69%;
+    font-size: 210px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    position: absolute;
+    left: 22%;
+    top: 24%;
+    /* transform: translate(-42%,-5%); */
+}
+#yoo3{
+    height: 100%;
+    width: 69%;
+    font-size: 210px;
+    letter-spacing: -2px;
+    font-weight: 500;
+    position: absolute;
+    left: 28%;
+    top: 30%;
+    /* transform: translate(-42%,-5%); */
+}
+.art{
+    position: absolute;
+    left: 52%;
+    top: 125%;
+    transform: translate(-50%,-50%);
+}
+.arts{
+    font-size:850px;
+    color: rgb(230, 193, 193);
+    opacity: 5;
+    z-index: -10;
+}
+.about{
+    height: 220%;
+    width:100%;
+    background-color: #E3DACD;
+    position: relative;
+    border-top: 1px solid transparent
+}
+.capsule{
+    height: 80px;
+    width: 500px;
+    background-color: #E3DACD;
+    position: absolute;
+    left: 37%;
+    top: -40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    border-radius: 50px;
+}
+.capsule #cap{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    color: #777;
+
+}
+.about-deco{
+    height: 100%;
+    width: 100%;
+    background-color: #FFE699;
+    margin-top: 400px;
+    border-top-left-radius: 300%;
+    border-top-right-radius: 300%;
+    position: relative;
+}
+.cardpack{
+    height: 500px;
+    width: 400px;
+    /* background-color: thistle; */
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%,0);
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 1.0s ease-in-out;
+   
+}
+#one{
+    height: 450px;
+    width: 350px;
+    /* background-color: #FFE699; */
+    position: absolute;
+    left: 60%;
+    top: -10%;
+    transform: translate(-50%,0) rotate(10deg);
+    background-image: url(chungi.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+   
+}
+#two{
+    height: 450px;
+    width: 350px;
+    /* background-color: rgb(106, 223, 91); */
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    transform:translate(-50%,0)  rotate(-10deg);
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+#two video{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: -25%;
+    display: block;
+}
+
+.cardpack:hover #one{
+    transform:translate(-50%,0) rotate(30deg);
+}
+
+.cardpack:hover #two{
+    transform:translate(-50%,0) rotate(-30deg);
+}  
+.aboutt{
+    height: 220%;
+    width:100%;
+    background-color: #E3DACD;
+    position: relative;
+    border-top: 1px solid transparent
+}
+
+.aboutt-deco{
+    height: 100%;
+    width: 100%;
+    background-color: #FFE699;
+    margin-top: 400px;
+    border-top-left-radius: 300%;
+    border-top-right-radius: 300%;
+    position: absolute;
+    top: -100%;
+}
+.cardpack{
+    height: 500px;
+    width: 400px;
+    /* background-color: thistle; */
+    position: absolute;
+    left: 50%;
+    top: -10%;
+    transform: translate(-50%,0);
+    transition: all cubic-bezier(0.55, 0.055, 0.675, 0.19) 10.6s ease-out;
+   
+}
+#onee{
+    height: 450px;
+    width: 350px;
+    /* background-color: #FFE699; */
+    position: absolute;
+    left: 60%;
+    top: -10%;
+    transform: translate(-50%,0) rotate(10deg);
+    background-image: url(chungi.webp);
+    background-size: cover;
+    background-position: center;
+    border-radius: 10px;
+   
+}
+#twoo{
+    height: 450px;
+    width: 350px;
+    /* background-color: rgb(106, 223, 91); */
+    position: absolute;
+    left: 30%;
+    top: -10%;
+    transform:translate(-50%,0)  rotate(-10deg);
+    overflow: hidden;
+    border-radius: 10px;
+    
+}
+#twoo video{
+    height: 500px;
+    width: 500px;
+    position: absolute;
+    left: -25%;
+    display: block;
+}
+
+.cardpack:hover #onee{
+    transform:translate(-50%,0) rotate(30deg);
+}
+
+.cardpack:hover #twoo{
+    transform:translate(-50%,0) rotate(-30deg);
+} 
